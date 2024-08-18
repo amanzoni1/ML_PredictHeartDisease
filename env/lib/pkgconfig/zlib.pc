@@ -1,0 +1,13 @@
+prefix=/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env
+exec_prefix=/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env
+libdir=/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env/lib
+sharedlibdir=/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env/lib
+includedir=/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

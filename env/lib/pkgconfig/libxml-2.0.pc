@@ -1,0 +1,13 @@
+prefix=/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.13.1
+Description: libXML library version2.
+Requires.private:  icu-i18n
+Libs: -L${libdir} -lxml2 
+Libs.private:  -L/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env/lib -lz -L/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env/lib -llzma  -L/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env/lib -liconv    
+Cflags: -I${includedir}/libxml2 -I/Users/andreamanzoni/Desktop/code/dataA_ML/heart_disease_project/env/include 
